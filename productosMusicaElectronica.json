@@ -1,0 +1,95 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Pioneer DJ CDJ-3000",
+        "categoria": "Reproductores de DJ",
+        "marca": "Pioneer DJ",
+        "precio": 2299.99,
+        "descripcion": "El CDJ-3000 es el último modelo de Pioneer DJ, diseñado para DJs profesionales. Con una pantalla táctil de 9 pulgadas, soporte para archivos de alta resolución y un procesador avanzado, es ideal para sets de DJ en vivo.",
+        "enlace": "https://www.pioneerdj.com/es/product/cdj/cdj-3000/"
+      },
+      {
+        "id": 2,
+        "nombre": "Native Instruments Maschine+",
+        "categoria": "Controladores MIDI",
+        "marca": "Native Instruments",
+        "precio": 1399.00,
+        "descripcion": "Maschine+ es un groovebox independiente para crear, producir y actuar en vivo sin necesidad de un ordenador. Viene con una biblioteca completa de sonidos y efectos, con integración de software avanzada.",
+        "enlace": "https://www.native-instruments.com/es/products/maschine/maschine-plus/"
+      },
+      {
+        "id": 3,
+        "nombre": "Korg Minilogue XD",
+        "categoria": "Sintetizadores",
+        "marca": "Korg",
+        "precio": 649.99,
+        "descripcion": "El Minilogue XD es un sintetizador analógico polifónico con una calidad de sonido impresionante. Ofrece sonidos analógicos clásicos con la opción de agregar efectos digitales para ampliar las posibilidades sonoras.",
+        "enlace": "https://www.korg.com/us/products/synthesizers/minilogue_xd/"
+      },
+      {
+        "id": 4,
+        "nombre": "Ableton Live 11 Suite",
+        "categoria": "Software de Producción Musical",
+        "marca": "Ableton",
+        "precio": 749.00,
+        "descripcion": "Ableton Live 11 Suite es una de las estaciones de trabajo más utilizadas en la música electrónica. Incluye potentes herramientas de edición, efectos, y una vasta colección de sonidos para producir música en cualquier género.",
+        "enlace": "https://www.ableton.com/en/live/"
+      },
+      {
+        "id": 5,
+        "nombre": "Akai Professional MPC One",
+        "categoria": "Grooveboxes",
+        "marca": "Akai Professional",
+        "precio": 799.00,
+        "descripcion": "El MPC One es un sampler y secuenciador todo en uno. Con una pantalla táctil intuitiva y pads sensibles a la presión, es perfecto para la creación de beats y producción en vivo.",
+        "enlace": "https://www.akaipro.com/mpc-one"
+      },
+      {
+        "id": 6,
+        "nombre": "Behringer MS-1",
+        "categoria": "Sintetizadores",
+        "marca": "Behringer",
+        "precio": 299.00,
+        "descripcion": "El Behringer MS-1 es un sintetizador analógico monofónico inspirado en el clásico SH-101. Perfecto para crear bajos potentes y líneas melódicas. Cuenta con un potente filtro y secuenciador.",
+        "enlace": "https://www.behringer.com/product.html?modelCode=P0A0H"
+      },
+      {
+        "id": 7,
+        "nombre": "Focusrite Scarlett 2i2 (3rd Gen)",
+        "categoria": "Interfaces de audio",
+        "marca": "Focusrite",
+        "precio": 169.99,
+        "descripcion": "La Scarlett 2i2 es una de las interfaces de audio más populares para productores de música electrónica. Ofrece dos entradas y salidas de alta calidad con preamplificadores Scarlett, ideal para grabación y producción casera.",
+        "enlace": "https://focusrite.com/en/scarlett/scarlett-2i2"
+      },
+      {
+        "id": 8,
+        "nombre": "Novation Circuit Tracks",
+        "categoria": "Grooveboxes",
+        "marca": "Novation",
+        "precio": 389.99,
+        "descripcion": "Circuit Tracks es una groovebox compacta que permite secuenciar música de manera fácil. Ofrece sintetizadores y cajas de ritmos, junto con una interfaz intuitiva para creación en tiempo real.",
+        "enlace": "https://novationmusic.com/circuit/circuit-tracks"
+      },
+      {
+        "id": 9,
+        "nombre": "Audio-Technica ATH-M50x",
+        "categoria": "Auriculares",
+        "marca": "Audio-Technica",
+        "precio": 169.00,
+        "descripcion": "Los ATH-M50x son unos auriculares de alta calidad, ideales para producción musical y mezcla. Ofrecen un sonido preciso y claro, con una excelente respuesta de bajos.",
+        "enlace": "https://www.audio-technica.com/en-us/ath-m50x"
+      },
+      {
+        "id": 10,
+        "nombre": "Pioneer DJ DJM-900NXS2",
+        "categoria": "Mesas de Mezcla",
+        "marca": "Pioneer DJ",
+        "precio": 2199.99,
+        "descripcion": "La DJM-900NXS2 es una mesa de mezclas profesional utilizada por DJs de todo el mundo. Ofrece efectos avanzados, conectividad digital, y un sonido de calidad superior para actuaciones en vivo.",
+        "enlace": "https://www.pioneerdj.com/es/product/mixer/djm-900nxs2/"
+      }
+    ]
+  }
+  
