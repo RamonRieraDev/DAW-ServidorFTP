@@ -9,9 +9,9 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-    host: "HOST SERVER IP",
-    user: "YOUR USER",
-    password: "YOUR PASSOWRD",
+    host: "127.0.0.1",
+    user: "user1",
+    password: "123",
     secure: true,
     secureOptions: { rejectUnauthorized: false }, // Acepta certificados autofirmados
     port: 21,
