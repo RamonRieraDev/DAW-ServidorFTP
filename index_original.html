@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hotels Data</h1>
+    <table id="hotelsTable">
+        <thead>
+            <tr>
+                <th>Hotel Name</th>
+                <th>Location</th>
+                <th>Rating</th>
+                <th>Number of Rooms</th>
+                <th>Price per Night</th>
+                <th>Amenities</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        async function fetchHotels() {
+            try {
+                const response = await fetch("http://localhost:3000/hotels");
+                const hotels = await response.json();
+
+                const tableBody = document.getElementById("hotelsTable").querySelector("tbody");
+
+                hotels.forEach(hotel => {
+                    const row = document.createElement("tr");
+
+                    row.innerHTML = `
+                        <td>${hotel.name[0]}</td>
+                        <td>${hotel.location[0]}</td>
+                        <td>${hotel.rating[0]}</td>
+                        <td>${hotel.rooms[0]}</td>
+                        <td>${hotel.price[0]}</td>
+                        <td>${hotel.amenities[0]}</td>
+                    `;
+
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error("Error fetching hotel data:", error);
+            }
+        }
+
+        // Fetch and display hotels data on page load
+        fetchHotels();
+    </script>
+</body>
+</html>
