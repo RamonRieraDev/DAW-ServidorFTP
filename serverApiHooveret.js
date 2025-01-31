@@ -16,9 +16,9 @@ if (!fs.existsSync(IMG_DIR)) {
 
 // Configuración del FTP
 const FTP_CONFIG = {
-    host: "ftp.hooveret.com",
-    user: "hooveret",
-    password: "AmorMio40!",
+    host: "",
+    user: "",
+    password: "",
     secure: true,
     secureOptions: { rejectUnauthorized: false },
     port: 21,
